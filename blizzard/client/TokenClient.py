@@ -10,4 +10,5 @@ def get_oauth_token():
     oauth = OAuth2Session(client=BackendApplicationClient(client_id=client_id))
     token = oauth.fetch_token(token_url=os.getenv("TOKEN_URL"), client_id=client_id,
                               client_secret=os.getenv("CLIENT_SECRET"))
+    
     return token["access_token"]
