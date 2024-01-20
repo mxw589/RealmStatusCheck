@@ -39,7 +39,6 @@ windows task to inform you when it has changed
 
 - **Environment Variables:** Set up any required environment variables in the "Actions" tab where you edit the action
   that starts your Python script. The environment variables required by this project are:
--
 
 | Variable Name | Variable Value                                             | Example                        |
 |---------------|------------------------------------------------------------|--------------------------------|
