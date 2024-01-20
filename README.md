@@ -33,7 +33,7 @@ windows task to inform you when it has changed
 6. **Finish:**
     - Review your settings and click "Finish."
     - You probably will want to edit your trigger schedule to run more regularly than was possible when creating a basic
-      task using the wizard, so edit this now
+      task using the wizard, so edit this now. For example: https://i.imgur.com/vXVGoI0.png
 
 ## Additional Considerations
 
