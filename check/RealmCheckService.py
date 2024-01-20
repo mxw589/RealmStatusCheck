@@ -16,7 +16,8 @@ def check_realm_status():
         enemy_status = os.getenv("ENEMY_STATUS")
 
         if realm_type != enemy_status:
-            display_system_message(f"{realm_name} has type: {realm_type}, it is not {enemy_status}!")
+            display_system_message(message=f"{realm_name} has type: {realm_type}, it is not {enemy_status}!",
+                                   title="Make a character!")
 
     else:
         print(f"Unable to find single realm with name:{realm_name}")
